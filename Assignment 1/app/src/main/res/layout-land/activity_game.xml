@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llGameRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:context=".activities.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/llGamePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:maxWidth="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llGamePlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="7dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/llGamePlayer3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="7dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/llGamePlayer2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:maxHeight="330dp">
+
+        <GridLayout
+            android:id="@+id/glGameBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/logs_" />
+
+        <ListView
+            android:id="@+id/lvGameLogs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@android:color/transparent"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll" />
+    </LinearLayout>
+</LinearLayout>

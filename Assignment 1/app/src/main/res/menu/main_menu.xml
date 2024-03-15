@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sign_in_button"
+        android:icon="@drawable/common_google_signin_btn_icon_light"
+        android:title="@string/login"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/user"
+        android:title="@string/user"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/logout"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>

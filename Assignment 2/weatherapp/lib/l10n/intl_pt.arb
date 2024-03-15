@@ -1,0 +1,19 @@
+{
+  "weather": "Meteorologia",
+  "lastUpdated": "Última atualização: ",
+  "weatherHasNotBeenUpdatedYet": "A meteorologia ainda não foi atualizada.",
+  "feelsLike": "Sensação ",
+  "today": "Hoje",
+  "maxMin": "Max / Min",
+  "detailsFor": "Detalhes do dia: ",
+  "sunrise": "Nascer do sol",
+  "sunset": "Pôr-do-sol",
+  "uvIndex": "Índice UV",
+  "windSpeed": "Vento",
+  "humidity": "Humidade",
+  "pressure": "Pressão",
+  "of10": " de 10",
+  "ms": " m/s",
+  "percentage": " %",
+  "hpa": " hPa"
+}

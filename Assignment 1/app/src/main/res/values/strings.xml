@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name" translatable="false">JCK Reversi</string>
+    <string name="about_text"><b>Authors:</b>\n\tPedro dos Santos Alves - 2019112789\n\tLeandro Adão Fidalgo - 2017017144\n\tRenato Rodrigues de Oliveira - 2010011421\n\n<b>Subject:</b>\n\tMobile Architectures\n\n<b>Course:</b>\n\tBachelors in Computer Engineering\n\n<b>Year:</b>\n\t2021/2022</string>
+    <string name="about_title">About - JCK Reversi</string>
+    <string name="play_offline">Play offline</string>
+    <string name="play_online">Play online</string>
+    <string name="play_online_3">Play online 1v1v1</string>
+    <string name="login">Login</string>
+    <string name="name_">Name:</string>
+    <string name="email_">Email:</string>
+    <string name="top_score_">Top score:</string>
+    <string name="change_picture">Change picture</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ip_">IP:</string>
+    <string name="port_">Port:</string>
+    <string name="special_pieces">Special pieces</string>
+    <string name="auto_skip">Automatically skip</string>
+    <string name="player_name" translatable="false">PlayerName</string>
+    <string name="waiting___">Waiting…</string>
+    <string name="player_avatar">Player avatar</string>
+    <string name="score_">Score:</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="player_disc">Player disc</string>
+    <string name="about">About</string>
+    <string name="user">User</string>
+    <string name="logout">Logout</string>
+    <string name="create_join_room">Would you like to create or join a game?</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="join">Join</string>
+    <string name="okay" translatable="false">Okay</string>
+    <string name="default_port" translatable="false">9999</string>
+    <string name="default_ip" translatable="false">127.0.0.1</string>
+    <string name="show_placeable_pieces">Show placeable pieces</string>
+
+    <string name="web_client_id" translatable="false">126706886528-gl6pbf6nn8eaplgfftn08bvo01dejmgc.apps.googleusercontent.com</string>
+    <string name="google_sign_in_failed">Google sign in failed! Please try again.</string>
+    <string name="google_sign_in">Google sign in</string>
+    <string name="winner">Winner</string>
+    <string name="skip">Skip</string>
+    <string name="bomb" translatable="false">💣</string>
+    <string name="replace" translatable="false">🔄</string>
+    <string name="avatar">Avatar</string>
+    <string name="info">Info</string>
+    <string name="place">Place</string>
+    <string name="game_settings">Game settings</string>
+    <string name="waiting_room">Waiting room</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="username">Username</string>
+
+    <string name="date_time">%1$s %2$s</string>
+    <string name="game_draw">Game ended in a draw!</string>
+    <string name="game_died">Seems like the server has died! Would you like to keep playing or exit?</string>
+    <string name="continue_playing">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="server_died">Server died</string>
+    <string name="about_to_quit">You are about to quit. Would you like to continue?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exiting">Exiting</string>
+    <string name="you_must_skip">You can not do anything! You must skip!</string>
+    <string name="no_network">No network connection.</string>
+    <string name="game_started">Game started!</string>
+    <string name="ip">IP</string>
+    <string name="reversi_logo">JCK Reversi logo</string>
+    <string name="logs_">Logs:</string>
+
+    <string name="onShowPlaceablePieces">Showing placeable pieces</string>
+    <string name="onClearPlaceablePieces">Clearing placeable pieces</string>
+    <string name="onPlacePiece">Placing %1$s (x: %2$d, y: %3$d)</string>
+    <string name="onPlaceBomb">Placing bomb (x: %1$d, y: %2$d)</string>
+    <string name="onBeginReplacePiece">Began replacing pieces</string>
+    <string name="onAddReplacePiece">%1$s piece (x: %2$d, y: %3$d) has been selected to be replaced</string>
+    <string name="onRemoveReplacePiece">%1$s piece (x: %2$d, y: %3$d) has been deselected</string>
+    <string name="onEndReplacePiece">Stopped replacing pieces</string>
+    <string name="onPlayerScoreUpdated">%1$s\'s score has been updated</string>
+    <string name="onNextPlayer">Waiting for %1$s\'s move</string>
+    <string name="onPlayerSkip">%1$s can not do anything and needs to skip</string>
+    <string name="onGameOver">Game has ended</string>
+    <string name="onPlayerBombStatusChange">%1$s\'s bomb status has changed</string>
+    <string name="onPlayerReplaceStatusChange">%1$s\'s replace piece status has changed</string>
+    <string name="onGameDead">Server has been terminated</string>
+    <string name="onEndReplacePieceSwapped">Pieces have been swapped</string>
+    <string name="infinite_special_pieces">Infinite special pieces</string>
+</resources>

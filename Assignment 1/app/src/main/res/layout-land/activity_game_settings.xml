@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llGameSettingsRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:context=".activities.GameSettingsActivity">
+
+    <ImageView
+        android:id="@+id/imgMainLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_settings" />
+
+    <LinearLayout
+        android:id="@+id/llGameSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:minWidth="223dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:id="@+id/llGameSettingsIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvGameSettingsIP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/etGameSettingsIP"
+                android:paddingHorizontal="5dp"
+                android:text="@string/ip_"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etGameSettingsIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="name"
+                android:inputType="text"
+                android:maxLength="25"
+                android:text="@string/default_ip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llGameSettingsPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvGameSettingsPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/etGameSettingsPort"
+                android:paddingHorizontal="5dp"
+                android:text="@string/port_"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etGameSettingsPort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="phone"
+                android:inputType="number"
+                android:maxLength="5"
+                android:text="@string/default_port" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llGameSettingsCheckBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <CheckBox
+                android:id="@+id/cbGameSettingsShowPlaceable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:padding="5dp"
+                android:text="@string/show_placeable_pieces" />
+
+            <CheckBox
+                android:id="@+id/cbGameSettingsSpecialDiscs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:padding="5dp"
+                android:text="@string/special_pieces" />
+
+            <CheckBox
+                android:id="@+id/cbGameSettingsInfiniteSpecialDiscs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:checked="false"
+                android:enabled="true"
+                android:padding="5dp"
+                android:text="@string/infinite_special_pieces" />
+
+            <CheckBox
+                android:id="@+id/cbGameSettingsAdvancedSkip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:padding="5dp"
+                android:text="@string/auto_skip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

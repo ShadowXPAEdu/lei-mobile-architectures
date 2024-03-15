@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llTopScoreLayoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:id="@+id/llGamePlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llGamePlayer1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="150dp"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginVertical="7dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/llGamePlayer3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="150dp"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginVertical="7dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/llGamePlayer2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="150dp"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp" />
+</LinearLayout>

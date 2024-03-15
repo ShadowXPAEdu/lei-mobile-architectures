@@ -1,0 +1,19 @@
+{
+  "weather": "Weather",
+  "lastUpdated": "Last updated: ",
+  "weatherHasNotBeenUpdatedYet": "Weather has not been updated yet.",
+  "feelsLike": "Feels like ",
+  "today": "Today",
+  "maxMin": "Max / Min",
+  "detailsFor": "Details for: ",
+  "sunrise": "Sunrise",
+  "sunset": "Sunset",
+  "uvIndex": "UV index",
+  "windSpeed": "Wind speed",
+  "humidity": "Humidity",
+  "pressure": "Pressure",
+  "of10": " of 10",
+  "ms": " m/s",
+  "percentage": " %",
+  "hpa": " hPa"
+}
